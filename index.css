@@ -16,7 +16,7 @@ html, body{
 main{
 	margin-right: auto;
 	/*margin-left: auto;*/
-	padding-left: 20px;
+	margin-left: auto;
 }
 #welcome{
 	margin-right: auto;

@@ -1,3 +1,6 @@
+html{
+	zoom: 70%;
+}
 @font-face {
 	font-family: 'Minecraftia';
 	src: url('Minecraftia.ttf');
