@@ -1,0 +1,57 @@
+
+html, body{
+	zoom: 100%;
+	width: 100%;
+	body: 100%;
+	background-color: #C0C0C0;
+	padding-left: 50px;
+}
+* {
+    padding: 0px;
+    margin: 0px
+}
+#outer{
+	padding: 20px;
+}
+main{
+	margin-right: auto;
+	/*margin-left: auto;*/
+	padding-left: 50px;
+}
+#welcome{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.content{
+	float: right;
+	padding-right: 140px;
+}
+.sidebar{
+	float:right;
+}
+#jes{
+	display: block;
+
+}
+.menu{
+/*	margin-left: auto;
+	margin-right: auto;*/
+	float: right;
+	display: block;
+}
+
+.image1, .menu
+{ 
+	opacity:1.0; 
+	filter:alpha(opacity=100); 
+} 
+.image1:hover, .menu:hover 
+{ 
+	opacity:0.4; 
+	filter:alpha(opacity=40); 
+} 
+#gamemenu{
+	border-collapse: collapse;
+	border-spacing: 0;
+}

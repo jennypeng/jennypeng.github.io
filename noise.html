@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+<script>
+
+function main() {
+   var canvas = document.createElement("canvas");
+   var ctx = canvas.getContext('2d');
+   for (var x = 0; x < 400; x++) {
+      for (var y = 0; y < 400; y++) {
+         var ran = Math.floor(Math.random() * 60);
+
+         ctx.fillStyle = "rgb("+ ran +", "+ ran +", "+ ran +")";
+         ctx.fillRect(x, y, 1, 1);
+      }
+   }
+   document.body.style.backgroundImage = "url(" + canvas.toDataURL("image/png") + ")";
+}
+//initialize background image
+main();
+
+//constantly change bg pos to imitate tv noise effect
+setInterval(function() {
+  
+  var randPosOne = Math.floor(Math.random() * 200);
+      randPosTwo = Math.floor(Math.random() * 200);
+      bgPosition = randPosOne + 'px ' + randPosTwo + 'px';
+      document.body.style.backgroundPosition = bgPosition;
+  
+}, 90);
+
+</script>
+</body>
+</html>     
