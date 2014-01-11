@@ -19,10 +19,15 @@ hr{
 	margin-left: auto;
 	margin-right: auto;
 }
-#projectcontent{
+#projectcontent {
 	text-align: justify;
 	font-family: 'Minecraftia';
 	font-size: 20px;
+}
+#blogcontent {
+	font-family: 'Minecraftia';
+	text-align: justify;
+	font-size: 15px;
 }
 
 ::-webkit-scrollbar {

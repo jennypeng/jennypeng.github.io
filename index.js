@@ -12,6 +12,8 @@ function resetImage() {
 }
 
 $("#playslowlife").click(function(){
+    resetImage();
+    $("#jes").attr("src", "http://i.imgur.com/ji9JPFS.png");
 if (document.getElementById("GameFrame") != "noise.html") {
         $("#GameFrame").fadeTo("slow" , 0.9, function(){
             $("#GameFrame").attr("src", "noise.html");
@@ -75,7 +77,7 @@ $("#blog").click(function(){
         $("#GameFrame").fadeTo("slow" , 0.9, function(){
         	$("#GameFrame").attr("src", "noise.html");
         	$("#GameFrame").fadeTo("slow" , 0.9, function(){
-        	$("#GameFrame").attr("src", "comingsoon.html");
+        	$("#GameFrame").attr("src", "blog.html");
         });
         });
         

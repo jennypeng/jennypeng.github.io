@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id = "blogcontent">
+		<h2 id = "title"> Blog </h2>
+		<h3> 		Hello! This is going to be a blog where I document about the things I learn each day. </h3>
+		<hr>
+
+		<u><h4 id = "title">Late night web developing</h4></u>
+		<h4> January 10th, 2014
+		<br> 
+		Last night, when I was working on my website I realized that I had made a huge error. For a greenhorn web developer like me, it was easy for me to forget about cross-browser compatibility during programming. I realized that what my website looks like locally on Chrome will most likely not look the same as it might look on say, my friends Mozilla browser or on a a stranger's mobile browser. As a result, my website only looks as intended on Chrome. As a couple examples of what I mean by this, both stylizing default zoom amount and customizing scrollbars are only compatible with newer browsers. Though customized scrollbars are just a flourish, my set default zoom ensured that the view was not distorted. Since stylizing zoom was a CSS3 element, the display for my website did not work well on some unsupported browsers. From now on I'll continue working on making my site cross-browser compatible.
+		<br>
+		Some things that I have taken from this:
+		<ol>
+		<li> While developing a site, test your stylesheets along the way! Do not try to reinvent the wheel, and use existing libraries to abstract away potential problems caused by hackish programming.</li>
+		<li> It is good to adopt a perspective of test-driven development. Especially at the hours of 6 AM, without prior testing, every hour you spend coding is three hours spent debugging. </li>
+		<li> document.getElementByID('ID') is not the same thing as jQuery's $('#ID'). The former returns a DOM object, while the latter returns either a DOM wrapper or a set of DOM elements. As a result, these are not always interchangeable. </li>
+		<li> JavaScript's NaN behaves in funky ways. </li>
+		<li> Good music and good food always makes coding ten times more enjoyable early in the morning. </li>
+		</ol>
+
+		On an unrelated note, I decided to start learning Ruby today. Wish me luck on my journey!
+		<br>
+		
+
+	</div>
+	<body>
+		</html>
