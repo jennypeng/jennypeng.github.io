@@ -4,7 +4,7 @@ var jes = document.getElementById("jes");
 //reset 
 function resetImage() {
     document.getElementById("GameFrame").style.padding = "0px";
-    document.getElementById("GameFrame").style.backgroundColor = "gray";
+    document.getElementById("GameFrame").style.backgroundColor = "#FFFFF0";
 	$("#aboutme").attr("src", "http://i.imgur.com/GuSFziM.png");
 	$("#projects").attr("src", "http://i.imgur.com/4aJ1G3f.png");
 	$("#blog").attr("src", "http://i.imgur.com/Q7pIFr9.png");
