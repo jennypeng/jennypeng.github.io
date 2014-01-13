@@ -55,7 +55,7 @@ html, body{
 }
 
 #content{
-	padding-left: 30px;
+	padding-left: 50px;
 	margin-right: auto;
 	margin-left: auto;
 	float:left;
@@ -69,3 +69,13 @@ html, body{
 li{
 	list-style: none;
 }
+.image1, .menu
+{ 
+        opacity:1.0; 
+        filter:alpha(opacity=100); 
+} 
+.image1:hover, .menu:hover 
+{ 
+        opacity:0.4; 
+        filter:alpha(opacity=40); 
+} 
