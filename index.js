@@ -47,7 +47,7 @@ if (document.getElementById("GameFrame") != "noise.html") {
         	$("#GameFrame").attr("src", "aboutme.html");
         });
     }
-    $("#GameFrame").attr("scrolling", "no");
+    $("#GameFrame").attr("scrolling", "yes");
 
 });
 $("#projects").click(function(){
@@ -108,4 +108,4 @@ $("#art").click(function(){
     $("#GameFrame").attr("scrolling", "yes");
 });
 
-});
+}); //refactor this code eventually
