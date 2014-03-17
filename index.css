@@ -2,17 +2,20 @@
 	padding: 0px;
 	margin: 0px
 }
+html {
+	zoom: 60%;
+	-moz-transform: scale(0.90);
+}
 html, body{
-	zoom: 70%;
-	-moz-transform: scale(0.95);
+	/*zoom: 70%;*/
+	/*-moz-transform: scale(0.95);*/
 	body: 100%;
 	background-color: #C0C0C0;
-
 }
 
 #outer{
 	padding: 20px;
-	overflow-y: hidden
+	overflow-y: hidden;
 	min-width: 900px;
 }
 .main{
@@ -27,6 +30,7 @@ html, body{
 	display: block;
 }
 #jes{
+	margin-top: 70px; 
 	width: 100%;
 }
 .menu{
@@ -55,11 +59,9 @@ html, body{
 }
 
 #content{
-	padding-left: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	float:left;
-	display: inline-block;
+	margin: 0 auto;
+	display: block;
+	max-width: 1882px;
 }
 #GameFrame{
 	max-width: 100%;

@@ -55,7 +55,7 @@ hr{
 	border:3px solid black;
 }
 .artimg{
-	max-width: 910px;
+	max-width: 100%;
 	display: block;
 	float: left;
 	/*border-radius:10px;
